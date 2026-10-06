@@ -15,21 +15,14 @@ Robots that must act quickly rely on decision models to select an action from a 
 - **Priority of protecting humans.** Under a performance goal, four models chose the harmful option with 83.6% to 99.5% probability even when five people would die and protecting them would destroy the robot.
 - **Joint action–harm filtering.** Obtaining the action choice and the model's own harm judgments in one request and removing options judged harmful before execution reduced harmful execution to 0 of 200 decisions in all four models with accurate harm judgments, without an extra request.
 
-## Planned contents
+## Planned release
 
-| Path | Contents |
-|---|---|
-| `data/` | Benchmark cells (scenario, options, policy sentence, harm attributes) |
-| `prompts/` | Prompt templates for action and harm queries |
-| `eval/` | Scripts to query decision models and record option probabilities |
-| `filter/` | Joint action–harm filtering and the live evaluation |
-| `analysis/` | Scripts that reproduce the tables and figures in the paper |
-| `validation/` | Human label validation sheets and agreement analysis |
+The release will include the benchmark data, prompts, evaluation and filtering code, analysis scripts, and human-validation materials needed to reproduce the paper's results. The repository layout will be documented when these materials are uploaded.
 
 ## License
 
-- Benchmark data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- Code: MIT License
+- Benchmark data: [CC BY 4.0](DATA_LICENSE.md)
+- Code: [MIT License](LICENSE)
 
 ## Citation
 
